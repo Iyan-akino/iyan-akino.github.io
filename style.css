@@ -230,10 +230,11 @@ html {
   .experience-contain {
     display: flex;
     width: 80.625rem;
+    height: auto;
     align-items: flex-start;
     gap: 3rem;
     justify-content: space-between;
-    margin-bottom:800px;
+    margin-bottom:0px;
   }
   
   .experience-title {
@@ -308,7 +309,7 @@ html {
     display: flex;
     margin-top: 80px;
     margin-left: 350px;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
   }
 
   .accomplishment-card {
@@ -410,6 +411,10 @@ html {
 
   /*============CONTATCS===============*/
 
+  .contacts-section {
+    scroll-margin-top: 125px; ;
+  }
+
   .contacts-container {
     padding-right: 10px;
     padding-left: 0px;
@@ -417,15 +422,14 @@ html {
     padding-bottom: 0px ;
     border-style: solid;
     border-color: #1D1E21;
-    border-width: 13px;
+    border-width: 10px;
     margin-left: 260px;
     margin-right: 260px;
+    margin-bottom: 80px;
+    margin-top:100px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
-    top: 400px;
-    margin-bottom: 0;
   }
 
   .contacts-introduction {
@@ -438,6 +442,8 @@ html {
     font-size: 70px;
     font-family: 'Kanit', sans-serif;
     margin-bottom: 30px;
+    margin-top: 100px;
+    padding-top: 20px;
   }
 
   .logo-contain{
@@ -446,6 +452,7 @@ html {
     flex-direction: row;
     margin-top: 60px;
     margin-bottom: 90px;
+    margin-left: 140px;
   }
 
   .logo {
@@ -473,7 +480,7 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
   }
 
   .margin {
@@ -488,6 +495,63 @@ html {
     color: blue;
   }
 
+/* Contact Section Styles */
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 150px;
+  margin-right: 250px;
+  margin-bottom: 300px;
+}
+
+.contact-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+  margin-left: 300px;
+}
+
+.email-title {
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+  width: 530px;
+}
+
+.form {
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  border-style: none;
+  background-color: rgb(208,196,188);
+  border-bottom: 3px solid grey;
+  border-radius: 10px;
+  padding: 5px 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 600px;
+  transition-duration: 0.5s;
+}
+
+.form:focus {
+  border-bottom: 3px solid #fc5e24;
+  outline: none;
+}
+
+.form-button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  width: 620px;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 60px;
+  transition-duration: 0.5s;
+}
+
+.form-button:hover {
+  opacity: 0.7;
+}
 
 
 
